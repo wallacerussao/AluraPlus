@@ -143,9 +143,25 @@ body{
     margin-bottom: 2em;
 }
 
+.rodape__texto {
+    margin: 1.5em;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
+
+.rodape__lista{
+    margin-bottom: 2em;
+}
+
 .lista__link {
     display: inline;
     color: var(--branco-principaç);
+}
+
+.lista__link a {
+    text-decoration:none;
+    color: var(--branco-principaç);
+    margin-left: 1em;
 }
 
 .lista__link a:hover{
